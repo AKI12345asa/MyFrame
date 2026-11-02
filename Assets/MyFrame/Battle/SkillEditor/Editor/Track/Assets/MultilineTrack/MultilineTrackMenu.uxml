@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="MultilineTrackMenu" style="flex-shrink: 1; background-color: rgb(88, 88, 88);">
+        <ui:VisualElement name="Top" style="height: 30px; border-bottom-color: rgb(72, 70, 70); border-bottom-width: 0.5px; border-left-color: rgb(72, 70, 70); border-right-color: rgb(72, 70, 70); border-top-color: rgb(72, 70, 70);">
+            <ui:Label text="声音配置" display-tooltip-when-elided="true" name="Title" style="height: 100%; justify-content: flex-start; -unity-text-align: middle-center; background-color: rgb(88, 88, 88);" />
+            <ui:Button text="+" display-tooltip-when-elided="true" name="AddButton" style="position: absolute; top: 0; left: 83%; height: 90%; width: 15%; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; -unity-font-style: normal; font-size: 15px; -unity-text-align: middle-center; white-space: nowrap;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ChildTrackMenuList" style="height: auto; background-color: rgb(88, 88, 88); margin-top: 5px;" />
+    </ui:VisualElement>
+</ui:UXML>

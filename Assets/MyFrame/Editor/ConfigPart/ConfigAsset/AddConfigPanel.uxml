@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/MyFrame/Editor/ConfigPart/ConfigAsset/AddConfigPanel.uss?fileID=7433441132597879392&amp;guid=f1559c708dacc6b4886575801c1026d7&amp;type=3#AddConfigPanel" />
+    <ui:VisualElement name="AddConfigPanel" style="flex-grow: 1;">
+        <ui:VisualElement name="PathPart" style="flex-grow: 0; flex-direction: row; height: 30px;">
+            <ui:Label tabindex="-1" text="Path" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Title" style="-unity-text-align: middle-center;" />
+            <ui:TextField picking-mode="Ignore" value="Assets/" name="PathField" style="width: 180px; margin-top: 5px; margin-bottom: 5px;" />
+            <ui:Button text="ChoosePath" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ChoosePathButton" style="width: 75px; flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:DropdownField label="Type" name="TypeDropdown" style="margin-bottom: 8px;" />
+        <ui:VisualElement name="NamePart" style="flex-grow: 1; flex-direction: row;">
+            <ui:Label tabindex="-1" text="Name" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Title" style="-unity-text-align: middle-center; width: 40px;" />
+            <ui:TextField picking-mode="Ignore" value="filler text" name="ConfigNameField" style="flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:Button text="Create" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CreateConfigButton" />
+    </ui:VisualElement>
+</ui:UXML>

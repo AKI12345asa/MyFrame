@@ -1,0 +1,53 @@
+# Unity 项目 —— 标准忽略规则
+
+# Unity 自动生成的目录
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/[Uu]IElementsSchema/
+
+# 自动生成的工程文件
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vs/
+.vsconfig
+ExportedObj/
+consulo/
+
+# IDE
+.idea/
+.vs/
+.vscode/
+
+# 系统与日志
+.DS_Store
+Thumbs.db
+*.log
+sysinfo.txt
+
+# 构建产物
+*.apk
+*.aab
+*.unitypackage
+
+# ❗付费插件不入库（Odin Inspector 为 Asset Store 付费资源，不可再分发）
+/[Aa]ssets/Plugins/Sirenix/
+/[Aa]ssets/Plugins/Sirenix.meta

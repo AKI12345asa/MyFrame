@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <MyFrame.Editor.ConfigWindow fixed-pane-initial-dimension="400" name="ConfigWindow">
+        <TwoSpanView name="Left" fixed-pane-initial-dimension="200">
+            <ui:VisualElement name="ConfigTypeTree" style="flex-grow: 1;">
+                <ui:Label tabindex="-1" text="ConfigTypes" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Title" style="border-bottom-width: 1px; border-bottom-color: rgb(89, 89, 89); height: 21px; margin-top: 1px; -unity-font-style: bold; -unity-text-align: middle-center;" />
+                <ui:Button text="Reset" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ResetButton" style="width: auto;" />
+                <ui:TreeView name="ConfigTypeTree" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Configs" style="flex-grow: 1;">
+                <uie:ToolbarSearchField name="ConfigsSearchField" style="width: auto;" />
+                <ui:ListView name="ConfigListView" show-border="false" horizontal-scrolling="true" show-foldout-header="false" show-add-remove-footer="false" virtualization-method="DynamicHeight" style="flex-grow: 1;" />
+            </ui:VisualElement>
+        </TwoSpanView>
+        <ui:VisualElement name="Right" style="flex-grow: 1;">
+            <ui:Label tabindex="-1" text="Inspector" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Title" style="border-bottom-width: 1px; border-bottom-color: rgb(89, 89, 89); height: 21px; margin-top: 1px; -unity-font-style: bold; -unity-text-align: middle-center;" />
+            <ui:ScrollView name="Content">
+                <ui:VisualElement name="InspectorContent" style="flex-grow: 1;" />
+            </ui:ScrollView>
+        </ui:VisualElement>
+    </MyFrame.Editor.ConfigWindow>
+</ui:UXML>

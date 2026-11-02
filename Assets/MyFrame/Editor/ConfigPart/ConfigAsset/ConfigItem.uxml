@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="ConfigItem" style="flex-grow: 0; flex-direction: row; height: 30px; -unity-background-image-tint-color: rgb(0, 140, 255); background-color: rgba(0, 0, 0, 0);">
+        <ui:VisualElement name="SOImage" style="flex-grow: 0; width: 30px; background-color: rgb(0, 0, 0); background-image: url(&quot;project://database/Assets/MyFrame/Editor/ConfigPart/ConfigAsset/SOImage.png?fileID=21300000&amp;guid=bfa262879a4bc914a915369d81dc7ebb&amp;type=3#SOImage&quot;);" />
+        <ui:Label tabindex="-1" text="BaseConfig" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ConfigName" style="-unity-font-style: bold; -unity-text-align: middle-left; flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>

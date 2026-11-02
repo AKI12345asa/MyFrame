@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/MyFrame/NodeSystemTree/Editor/Resources/NodeSystemTreeView.uss?fileID=7433441132597879392&amp;guid=74eccf83091044e439341a31437708f1&amp;type=3#NodeSystemTreeView" />
+    <ui:ListView focusable="true" header-title="Conditions" show-border="true" show-foldout-header="true" show-add-remove-footer="true" show-bound-collection-size="false" horizontal-scrolling="false" reorderable="true" name="ConditionListView" reorder-mode="Animated" selection-type="Single" virtualization-method="FixedHeight" style="flex-grow: 0;" />
+</ui:UXML>

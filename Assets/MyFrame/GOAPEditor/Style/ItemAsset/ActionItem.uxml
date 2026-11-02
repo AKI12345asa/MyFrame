@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:Label text="Label" display-tooltip-when-elided="true" name="Root" style="position: absolute; top: auto; width: 180px; height: 30px; -unity-text-align: middle-center; background-color: rgba(47, 154, 170, 0.71); border-right-width: 1px; border-left-width: 1px; flex-grow: 1; border-left-color: rgb(117, 112, 112); border-right-color: rgb(117, 112, 112); border-top-color: rgb(117, 112, 112); border-bottom-color: rgb(117, 112, 112); margin-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0;">
+        <ui:Button text="X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="DeleteButton" style="width: 15px; position: absolute; top: 7px; left: 150px; -unity-font-style: bold; background-color: rgba(107, 106, 106, 0); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; font-size: 10px;" />
+    </ui:Label>
+</ui:UXML>

@@ -1,0 +1,56 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/MyFrame/GOAPEditor/Style/WindowAsset/GOAPEditorWindow.uss?fileID=7433441132597879392&amp;guid=04421cc3b74c1884b814ae6461c260bd&amp;type=3#GOAPEditorWindow" />
+    <ui:VisualElement name="MainLayout" style="flex-direction: row; flex-grow: 1;">
+        <ui:VisualElement name="Left" style="width: 300px; flex-shrink: 0; border-left-color: rgb(115, 109, 109); border-right-color: rgb(115, 109, 109); border-top-color: rgb(115, 109, 109); border-bottom-color: rgb(115, 109, 109); border-right-width: 2px;">
+            <ui:VisualElement name="AddWindow" style="width: auto; flex-grow: 1;">
+                <ui:Label text="AddWindow" display-tooltip-when-elided="true" name="AddWidnowName" style="height: 20px; -unity-font-style: bold; -unity-text-align: middle-center; border-left-color: rgb(71, 67, 67); border-right-color: rgb(71, 67, 67); border-top-color: rgb(71, 67, 67); border-bottom-color: rgb(71, 67, 67); border-top-width: 1px; border-bottom-width: 1px;" />
+                <ui:VisualElement name="AddWindowContent" style="flex-grow: 0;" />
+                <ui:Button text="SavePrefab" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SaveAgentForPrefabButton" style="display: none;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="RuntimePanel" style="flex-grow: 1; border-top-width: 1px; border-top-color: rgb(71, 67, 67);">
+                <ui:Label text="Runtime" name="RuntimeTitle" style="height: 20px; -unity-font-style: bold; -unity-text-align: middle-center; border-bottom-width: 1px; border-bottom-color: rgb(71, 67, 67);" />
+                <ui:Label text="GOAP Agent Runtime" name="RuntimeSummaryLabel" style="height: 20px; -unity-text-align: middle-left; padding-left: 6px;" />
+                <ui:ScrollView name="RuntimeStateTrack" vertical-scroller-visibility="Auto" horizontal-scroller-visibility="Hidden" style="height: 180px;" />
+                <ui:Label text="Runtime Plan" name="RuntimePlanTitle" style="height: 20px; -unity-font-style: bold; -unity-text-align: middle-left; padding-left: 6px; border-top-width: 1px; border-top-color: rgb(71, 67, 67);" />
+                <ui:ScrollView name="RuntimePlanTrack" vertical-scroller-visibility="Auto" horizontal-scroller-visibility="Hidden" style="height: 220px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Right" style="flex-grow: 1;">
+            <ui:VisualElement name="ToolBar" style="height: 20px;">
+                <uie:ObjectField label="Object Field" name="AgentField" style="flex-grow: 1;" />
+            </ui:VisualElement>
+            <ui:ScrollView name="GOAPPanel" mode="Horizontal" nested-interaction-kind="Default" focusable="false" horizontal-scroller-visibility="Auto" vertical-scroller-visibility="AlwaysVisible" style="flex-grow: 1;">
+                <ui:VisualElement name="GoalsPanel">
+                    <ui:Label text="Goal" display-tooltip-when-elided="true" name="GoalName" style="height: 30px; -unity-text-align: middle-center; border-left-color: rgb(115, 109, 109); border-right-color: rgb(115, 109, 109); border-top-color: rgb(115, 109, 109); border-bottom-color: rgb(115, 109, 109); border-top-width: 1px; border-bottom-width: 1px; -unity-font-style: bold; background-color: rgb(56, 56, 56); border-right-width: 1px;" />
+                    <ui:ScrollView name="GoalsTrack" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" style="width: 180px; height: 100%; border-left-color: rgb(115, 109, 109); border-right-color: rgb(115, 109, 109); border-top-color: rgb(115, 109, 109); border-bottom-color: rgb(115, 109, 109); border-right-width: 1px;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="StatesPanel" style="border-left-color: rgb(94, 90, 90); border-right-color: rgb(94, 90, 90); border-top-color: rgb(94, 90, 90); border-bottom-color: rgb(94, 90, 90); border-right-width: 2px; width: 300px;">
+                    <ui:Label text="State" display-tooltip-when-elided="true" name="StateName" style="height: 30px; -unity-text-align: middle-center; border-left-color: rgb(115, 109, 109); border-right-color: rgb(115, 109, 109); border-top-color: rgb(115, 109, 109); border-bottom-color: rgb(115, 109, 109); border-top-width: 1px; border-bottom-width: 1px; -unity-font-style: bold; border-right-width: 1px;" />
+                    <ui:VisualElement style="height: 24px; border-right-width: 1px; border-right-color: rgb(115, 109, 109); border-bottom-width: 2px; border-bottom-color: rgb(71, 67, 67); padding-left: 2px; padding-right: 2px;">
+                        <uie:ToolbarSearchField name="StateSearchField" style="height: 18px; flex-grow: 1; padding-bottom: 0; width: 285px;" />
+                    </ui:VisualElement>
+                    <ui:ScrollView name="StatesTrack" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" />
+                </ui:VisualElement>
+                <ui:VisualElement name="ActionsPanel" style="width: 360px; flex-direction: row; flex-grow: 0;">
+                    <ui:VisualElement name="ActionPart" style="width: 180px;">
+                        <ui:Label text="Action" display-tooltip-when-elided="true" name="ActionName" style="height: 30px; -unity-text-align: middle-center; border-left-color: rgb(115, 109, 109); border-right-color: rgb(115, 109, 109); border-top-color: rgb(115, 109, 109); border-bottom-color: rgb(115, 109, 109); border-top-width: 1px; border-bottom-width: 1px; -unity-font-style: bold; border-right-width: 1px; width: auto;" />
+                        <ui:VisualElement style="height: 24px; border-right-width: 1px; border-right-color: rgb(115, 109, 109); border-bottom-width: 1px; border-bottom-color: rgb(71, 67, 67); padding-left: 2px; padding-right: 2px;">
+                            <uie:ToolbarSearchField name="ActionSearchField" style="height: 18px; flex-grow: 1; width: 169px;" />
+                        </ui:VisualElement>
+                        <ui:ScrollView name="ActionsTrack" horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" style="height: 100%; border-left-color: rgb(115, 109, 109); border-right-color: rgb(115, 109, 109); border-top-color: rgb(115, 109, 109); border-bottom-color: rgb(115, 109, 109); border-right-width: 1px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="ActionInspector" style="flex-grow: 1; background-color: rgb(56, 56, 56); border-left-color: rgb(115, 109, 109); border-right-color: rgb(115, 109, 109); border-top-color: rgb(115, 109, 109); border-bottom-color: rgb(115, 109, 109); border-right-width: 1px;">
+                        <ui:VisualElement name="PreConditionPart" style="height: 50%;">
+                            <ui:Label text="PreCondition" display-tooltip-when-elided="true" name="PreConditionName" style="height: 30px; -unity-text-align: middle-center; border-left-color: rgb(115, 109, 109); border-right-color: rgb(115, 109, 109); border-top-color: rgb(115, 109, 109); border-bottom-color: rgb(115, 109, 109); border-top-width: 1px; border-bottom-width: 1px; -unity-font-style: bold; border-right-width: 1px; width: auto; margin-right: 0; padding-right: 1px;" />
+                            <ui:ScrollView name="PreConditionTrack" vertical-scroller-visibility="Auto" horizontal-scroller-visibility="Hidden" style="height: auto; flex-grow: 1;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="EffectPart" style="flex-grow: 1;">
+                            <ui:Label text="Effect" display-tooltip-when-elided="true" name="EffectName" style="height: 30px; -unity-text-align: middle-center; border-left-color: rgb(115, 109, 109); border-right-color: rgb(115, 109, 109); border-top-color: rgb(115, 109, 109); border-bottom-color: rgb(115, 109, 109); border-top-width: 1px; border-bottom-width: 1px; -unity-font-style: bold; border-right-width: 1px; width: auto; margin-right: 0;" />
+                            <ui:ScrollView name="EffectTrack" style="height: auto; flex-grow: 1;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:ScrollView>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

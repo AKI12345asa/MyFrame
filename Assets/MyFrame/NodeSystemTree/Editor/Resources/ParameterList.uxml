@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/MyFrame/NodeSystemTree/Editor/Resources/NodeSystemTreeView.uss?fileID=7433441132597879392&amp;guid=74eccf83091044e439341a31437708f1&amp;type=3#NodeSystemTreeView" />
+    <ui:VisualElement style="flex-grow: 1; flex-direction: column-reverse;">
+        <ui:ListView focusable="true" horizontal-scrolling="true" reorderable="false" show-add-remove-footer="false" show-foldout-header="true" show-border="true" show-bound-collection-size="false" header-title="变量面板" fixed-item-height="40" name="ParameterList" reorder-mode="Simple" style="flex-grow: 1;" />
+        <uie:ToolbarButton text="Remove" display-tooltip-when-elided="true" name="DeleteButton" style="flex-grow: 0.025; -unity-text-align: middle-left; border-top-width: 1px;" />
+        <uie:ToolbarMenu display-tooltip-when-elided="false" text="Add Parameter" name="AddMenu" style="flex-grow: 0.025; border-top-width: 0;" />
+    </ui:VisualElement>
+</ui:UXML>

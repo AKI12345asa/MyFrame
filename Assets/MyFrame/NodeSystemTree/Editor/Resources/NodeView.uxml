@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/MyFrame/NodeSystemTree/Editor/Resources/NodeSystemTreeView.uss?fileID=7433441132597879392&amp;guid=74eccf83091044e439341a31437708f1&amp;type=3#NodeSystemTreeView" />
+    <ui:VisualElement name="node-border" style="height: 120px; width: 150px; background-image: url(&quot;project://database/Assets/UI/Sprite/T_ButtonA_Back.png?fileID=2800000&amp;guid=0c5b4db73b582b14cbc6e596144b2c88&amp;type=3#T_ButtonA_Back&quot;); -unity-text-align: middle-center; align-items: stretch;">
+        <ui:VisualElement name="title" style="flex-wrap: wrap; height: auto; width: auto; background-image: url(&quot;project://database/Assets/UI/Sprite/T_ButtonA_Back.png?fileID=2800000&amp;guid=0c5b4db73b582b14cbc6e596144b2c88&amp;type=3#T_ButtonA_Back&quot;); flex-grow: 0; position: absolute; left: 0; top: 0; right: 0; bottom: 0; -unity-slice-left: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0; -unity-background-scale-mode: stretch-to-fill; -unity-background-image-tint-color: rgb(249, 249, 249);">
+            <ui:Label text="节点" display-tooltip-when-elided="false" name="title-label" style="flex-shrink: 1; flex-grow: 1; -unity-font-definition: initial; -unity-font: resource(&apos;Fonts &amp; Materials/SIMFANG&apos;); height: 122px; width: 146px; font-size: 18px; color: rgb(8, 7, 7);" />
+        </ui:VisualElement>
+        <ui:VisualElement focusable="false" tabindex="0" style="-unity-background-image-tint-color: rgba(255, 255, 255, 0); height: auto; width: auto; justify-content: space-between; flex-grow: 0; position: absolute; left: 0; top: 0; right: 0; bottom: 0; white-space: normal;">
+            <ui:VisualElement name="input" style="-unity-background-image-tint-color: rgba(255, 255, 255, 0); justify-content: flex-end; align-items: center; width: 100%; height: 50%; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+            <ui:VisualElement name="output" style="background-color: rgba(0, 0, 0, 0); justify-content: flex-end; align-items: center; width: 100%; height: 50%; padding-bottom: 0; padding-top: 0; padding-right: 0; padding-left: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="selection-border" />
+</ui:UXML>

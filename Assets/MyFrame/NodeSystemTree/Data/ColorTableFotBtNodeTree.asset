@@ -1,0 +1,486 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a593c85c217cb4429c303e3e29de0d1, type: 3}
+  m_Name: ColorTableFotBtNodeTree
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: NodeColors
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[NodeColor, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 8
+    - Name: 
+      Entry: 7
+      Data: 1|NodeColor, Assembly-CSharp
+    - Name: Nodecolor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.754717
+    - Name: 
+      Entry: 4
+      Data: 0.173252538
+    - Name: 
+      Entry: 4
+      Data: 0.173252538
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Titlecolor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TypeName
+      Entry: 1
+      Data: Sequence
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 2|NodeColor, Assembly-CSharp
+    - Name: Nodecolor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.610062838
+    - Name: 
+      Entry: 4
+      Data: 0.455283046
+    - Name: 
+      Entry: 4
+      Data: 0.232130736
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Titlecolor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TypeName
+      Entry: 1
+      Data: Selector
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|NodeColor, Assembly-CSharp
+    - Name: Nodecolor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.3481457
+    - Name: 
+      Entry: 4
+      Data: 0.5031446
+    - Name: 
+      Entry: 4
+      Data: 0.115501679
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Titlecolor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TypeName
+      Entry: 1
+      Data: Parallel
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|NodeColor, Assembly-CSharp
+    - Name: Nodecolor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.496855259
+    - Name: 
+      Entry: 4
+      Data: 0.4408097
+    - Name: 
+      Entry: 4
+      Data: 0.167180836
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Titlecolor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TypeName
+      Entry: 1
+      Data: Repeat
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|NodeColor, Assembly-CSharp
+    - Name: Nodecolor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.06603769
+    - Name: 
+      Entry: 4
+      Data: 0.326244831
+    - Name: 
+      Entry: 4
+      Data: 0.3333333
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Titlecolor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TypeName
+      Entry: 1
+      Data: Run
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|NodeColor, Assembly-CSharp
+    - Name: Nodecolor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.615552664
+    - Name: 
+      Entry: 4
+      Data: 0.6792453
+    - Name: 
+      Entry: 4
+      Data: 0.819607854
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Titlecolor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.06289297
+    - Name: 
+      Entry: 4
+      Data: 0.06289297
+    - Name: 
+      Entry: 4
+      Data: 0.06289297
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TypeName
+      Entry: 1
+      Data: ConditionNode
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|NodeColor, Assembly-CSharp
+    - Name: Nodecolor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Titlecolor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TypeName
+      Entry: 1
+      Data: Running
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 8|NodeColor, Assembly-CSharp
+    - Name: Nodecolor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.8616352
+    - Name: 
+      Entry: 4
+      Data: 0.0406430624
+    - Name: 
+      Entry: 4
+      Data: 0.0538848564
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Titlecolor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TypeName
+      Entry: 1
+      Data: AttackNode
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DefaultNodeColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DefaultTitleColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ExcutingNodeColor
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: BaseType
+      Entry: 7
+      Data: 9|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: JLBehaviourTree.BehaviourTree.BtNodeBase, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+  NodeColors:
+  - Nodecolor: {r: 0.754717, g: 0.17325254, b: 0.17325254, a: 1}
+    Titlecolor: {r: 0, g: 0, b: 0, a: 1}
+    TypeName: Sequence
+  - Nodecolor: {r: 0.61006284, g: 0.45528305, b: 0.23213074, a: 1}
+    Titlecolor: {r: 0, g: 0, b: 0, a: 1}
+    TypeName: Selector
+  - Nodecolor: {r: 0.3481457, g: 0.5031446, b: 0.11550168, a: 1}
+    Titlecolor: {r: 0, g: 0, b: 0, a: 1}
+    TypeName: Parallel
+  - Nodecolor: {r: 0.49685526, g: 0.4408097, b: 0.16718084, a: 1}
+    Titlecolor: {r: 0, g: 0, b: 0, a: 1}
+    TypeName: Repeat
+  - Nodecolor: {r: 0.06603769, g: 0.32624483, b: 0.3333333, a: 1}
+    Titlecolor: {r: 0, g: 0, b: 0, a: 1}
+    TypeName: Run
+  - Nodecolor: {r: 0.61555266, g: 0.6792453, b: 0.81960785, a: 1}
+    Titlecolor: {r: 0.06289297, g: 0.06289297, b: 0.06289297, a: 1}
+    TypeName: ConditionNode
+  - Nodecolor: {r: 0, g: 0, b: 0, a: 0}
+    Titlecolor: {r: 0, g: 0, b: 0, a: 1}
+    TypeName: Running
+  - Nodecolor: {r: 0.8616352, g: 0.040643062, b: 0.053884856, a: 1}
+    Titlecolor: {r: 0, g: 0, b: 0, a: 1}
+    TypeName: AttackNode
+  DefaultNodeColor: {r: 0, g: 0, b: 0, a: 0}
+  DefaultTitleColor: {r: 0, g: 0, b: 0, a: 0}
+  ExcutingNodeColor: {r: 0, g: 0, b: 0, a: 0}

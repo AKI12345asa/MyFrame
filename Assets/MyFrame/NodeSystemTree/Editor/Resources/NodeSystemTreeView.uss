@@ -1,0 +1,69 @@
+#node-border #title {
+    background-image: url('project://database/Assets/UI/Sprite/T_ButtonA_Back.png?fileID=2800000&guid=0c5b4db73b582b14cbc6e596144b2c88&type=3#T_ButtonA_Back');
+    flex-wrap: wrap;
+    font-size: 18px;
+    -unity-font: resource('Fonts & Materials/SIMFANG');
+    -unity-font-definition: initial;
+}
+
+:hover > #node-border #title {
+    background-image: url('project://database/Assets/UI/Sprite/T_ButtonA_ForSysytem.png?fileID=2800000&guid=65c481417551f414aaaf4b39872677e2&type=3#T_ButtonA_ForSysytem');
+    -unity-font-style: bold;
+    -unity-text-outline-color: rgb(82, 78, 78);
+}
+
+.port.input {
+    width: auto;
+    height: 200px;
+    left: 3%;
+}
+
+.port.ouput {
+    width: 200px;
+    height: 18px;
+}
+
+.port.input > #connector {
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    background-color: rgb(39, 64, 13);
+    width: auto;
+}
+
+.port.output > #connector {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-left: 0;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgb(39, 64, 13);
+}
+
+.port.connectorText {
+}
+
+.edge {
+    background-color: rgb(178, 48, 48);
+    background-image: url('project://database/Assets/UI/Sprite/T_CursorA.png?fileID=21300000&guid=93fbbf8b2a2768045b723985c3120c85&type=3#T_CursorA');
+    border-left-color: rgb(210, 56, 56);
+    border-right-color: rgb(210, 56, 56);
+    border-top-color: rgb(210, 56, 56);
+    border-bottom-color: rgb(210, 56, 56);
+}
+
+#MovePoint {
+    background-image: url("project://database/Assets/NPCSystem/DialgueSystem/Sprite/pointIcon.png?fileID=21300000&guid=db7a3e0a097f0e14a8435866b1fca750&type=3#pointIcon");
+    -unity-background-image-tint-color: rgb(35, 200, 196);
+    width: 20px;
+    height: 20px;
+}
+
+GridBackground {
+    --grid-background-color: rgb(40, 40, 40);
+    --line-color: rgba(193, 196, 192, 0.1);
+    --thick-line-color: rgba(193, 196, 192, 0.1);
+    --spacing: 15;
+}

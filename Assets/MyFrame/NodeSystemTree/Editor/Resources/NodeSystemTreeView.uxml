@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/MyFrame/NodeSystemTree/Editor/Resources/NodeSystemTreeView.uss?fileID=7433441132597879392&amp;guid=74eccf83091044e439341a31437708f1&amp;type=3#NodeSystemTreeView" />
+    <NodeSystemTree.Editor.SpeakTreeView.SplitView fixed-pane-initial-dimension="300" orientation="Horizontal" name="SpeakSplitView" style="width: auto; height: auto;">
+        <ui:VisualElement name="left" style="flex-grow: 1; flex-shrink: 1; width: 247px; justify-content: flex-start;">
+            <uie:Toolbar>
+                <uie:ToolbarButton text="NodeInspector" display-tooltip-when-elided="true" name="ChangeToNodeInspector" enable-rich-text="true" />
+                <uie:ToolbarButton text="ParameterList" display-tooltip-when-elided="true" name="ChangeToParameterList" />
+            </uie:Toolbar>
+            <ui:Label tabindex="-1" text="RootNodeName:" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CurrentHierarchyRootNodeName" enable-rich-text="false" />
+            <NodeSystemTree.Editor.SpeakTreeView.Inspector name="SpeakInspector" style="flex-grow: 1; flex-shrink: 1; width: auto;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="right" style="width: auto; flex-grow: 1; height: auto; flex-shrink: 1; left: auto; max-width: none; max-height: none; flex-basis: auto; flex-direction: row;">
+            <NodeSystemTree.Editor.SpeakTreeView.TreeView focusable="true" name="SpeakTreeView" style="flex-grow: 0.9; width: auto; flex-shrink: 1; height: auto;" />
+            <ui:ListView focusable="true" show-foldout-header="true" header-title="层级列表" show-add-remove-footer="true" horizontal-scrolling="false" reorderable="true" show-border="true" name="HierarchyPanel" virtualization-method="FixedHeight" fixed-item-height="80" tabindex="1" show-bound-collection-size="false" style="flex-grow: 0.1; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+        </ui:VisualElement>
+    </NodeSystemTree.Editor.SpeakTreeView.SplitView>
+</ui:UXML>
