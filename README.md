@@ -6,7 +6,7 @@
 - `Assets/MyFrame` 下 **207 个 C# 脚本**，约 **2.6 万行**
 
 > ### ⚠️ 关于 Odin Inspector
-> 本仓库**不包含** Odin Inspector 的 DLL（Asset Store 付费资源，不可再分发）。
+> 本仓库**不包含** Odin Inspector 的 DLL。
 > 有 6 个脚本依赖它的序列化与检视面板；**阅读代码不受影响**，但要完整编译运行，需要自行安装 Odin Inspector。
 
 ---
